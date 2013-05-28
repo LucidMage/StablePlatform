@@ -39,6 +39,7 @@ function AppCore::create( %this )
     initializeOpenAL();
     
     ModuleDatabase.loadExplicit("Stable");
+    //ModuleDatabase.loadExplicit("Sandbox");
 }
 
 //-----------------------------------------------------------------------------
